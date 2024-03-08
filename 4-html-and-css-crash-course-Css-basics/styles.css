@@ -1,0 +1,48 @@
+h1
+{
+    color:orange;
+    text-decoration: underline;
+    font-size: 23px;
+    font-family: arial;
+    text-align: center;
+}
+p{
+    color: slategray;
+    text-align: right;
+    line-height: 30px;
+    letter-spacing: 3px;
+    column-count: 3;
+    column-gap: 60px;
+}
+ul
+{
+    /* border-width: 4px;
+    border-style: bold;
+    border-color:crimson;
+    border:4px bold crimson; */
+
+    border-bottom:4px solid crimson;
+    border-left:8px dotted blue;
+}
+
+li
+{
+    list-style-type: none;
+    text-shadow: 2px 2px lightgray;
+}
+
+span
+{
+    /* display: block; */
+}
+h3
+{
+    /* display: inline; */
+}
+
+h3
+{
+    border: 2px solid crimson;
+    margin: 90px;
+    padding: 20px;
+}

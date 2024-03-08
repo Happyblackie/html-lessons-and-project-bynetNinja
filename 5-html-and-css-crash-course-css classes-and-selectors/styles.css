@@ -1,0 +1,68 @@
+/* .error
+{
+    color: red;
+}
+
+.success
+{
+    color: green;
+}
+.success.feedback
+{
+    border: 1px solid ;
+}
+div p.para
+{
+    font-weight: 400;
+}
+#content
+{
+    margin-left: 20px;
+} */
+
+/*-------------------- attribute selectors------------------ */
+a[href]{
+    font-style: italic;
+}
+/* attribute that has 'https:://www.thenetninja.com' */
+a[href="https:://www.thenetninja.com"]
+{
+    text-decoration: none;
+}
+/* attribute that starts with 'me' */
+a[href$="me"]
+{
+    color: red;
+}
+/* attribute that ends with '.com' */
+a[href*=".com"]
+{
+    font-size: 10px;
+}
+
+
+
+
+
+/*-------------- cascading from top to bottom(specificity)------------ */
+
+div
+{
+    color: lightcoral;
+    border: 1px solid grey;
+    margin: 40px;
+    font-weight: bold;
+}
+
+div p
+{
+    color: inherit; /* inherits from the parent element */
+    border: inherit;
+    color: crimson; /* overridig a color */
+}
+
+p
+{
+    color: orange;
+}
+
